@@ -1,0 +1,6 @@
+import {
+  "moonbitlang/core/json",
+  "moonbitlang/core/string",
+  "moonbitlang/core/debug",
+  "moonbitlang/x/fs",
+}

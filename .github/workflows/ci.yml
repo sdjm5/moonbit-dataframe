@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup MoonBit
+        uses: moonbit-community/setup-moonbit@main
+      - name: Type check
+        run: moon check
+      - name: Run tests
+        run: moon test
+      - name: Build
+        run: moon build
