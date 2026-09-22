@@ -7,7 +7,14 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        # wasm-gc is the library's preferred target; native exercises the C
+        # backend (runners ship a C compiler); js the JavaScript backend.
+        target: [wasm-gc, js, native]
+    runs-on: ${{ matrix.os }}
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
@@ -16,6 +23,6 @@ jobs:
       - name: Type check
         run: moon check
       - name: Run tests
-        run: moon test
+        run: moon test --target ${{ matrix.target }}
       - name: Build
-        run: moon build
+        run: moon build --target ${{ matrix.target }}

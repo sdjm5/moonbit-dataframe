@@ -359,11 +359,15 @@ try {
 ## Development
 
 ```
-moon check     # type check
-moon test      # run the test suite
-moon build     # build
+moon check                        # type check
+moon test                         # run the test suite (wasm-gc)
+moon test --target native         # …on the C backend (needs a C compiler)
+moon build --target js            # …on the JavaScript backend
 moon run examples/demo
 ```
+
+CI runs the test suite on ubuntu, windows and macos across the
+wasm-gc, js and native targets.
 
 ## License
 
