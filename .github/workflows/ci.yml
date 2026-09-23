@@ -21,7 +21,7 @@ jobs:
       - name: Setup MoonBit
         uses: moonbit-community/setup-moonbit@main
       - name: Update registry
-              run: moon update
+        run: moon update
       - name: Type check
         run: moon check
       - name: Run tests
