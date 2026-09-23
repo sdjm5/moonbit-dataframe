@@ -1,0 +1,6 @@
+import {
+  "SDJM5/moonbit-dataframe" @df,
+  "moonbitlang/x/fs",
+}
+
+pkgtype(kind: "executable")

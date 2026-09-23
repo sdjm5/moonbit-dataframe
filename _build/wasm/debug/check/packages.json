@@ -1,0 +1,3884 @@
+{
+  "source_dir": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe",
+  "name": "SDJM5/moonbit-dataframe",
+  "packages": [
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe",
+      "root": "SDJM5/moonbit-dataframe",
+      "rel": "",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\aggregate.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\dataframe.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\describe.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\errors.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\extends.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\filter.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\io.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\io_file.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\ops.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\series.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\value.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\dataframe_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\features_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/debug",
+          "alias": "debug",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\debug"
+        },
+        {
+          "path": "moonbitlang/core/json",
+          "alias": "json",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\json"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/core/string",
+          "alias": "string",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\string"
+        },
+        {
+          "path": "moonbitlang/x/fs",
+          "alias": "fs",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\fs"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\moonbit-dataframe.mi",
+      "check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\aggregate.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\dataframe.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\describe.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\errors.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\extends.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\filter.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\io.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\io_file.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\ops.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\series.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\value.mbt",
+        "-o",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\moonbit-dataframe.mi",
+        "-pkg",
+        "SDJM5/moonbit-dataframe",
+        "-pkg-type",
+        "library",
+        "-std-path",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\debug\\debug.mi:debug",
+        "-i",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\fs\\fs.mi:fs",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\json\\json.mi:json",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\prelude\\prelude.mi:prelude",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\string\\string.mi:string",
+        "-pkg-sources",
+        "SDJM5/moonbit-dataframe:C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe",
+        "-target",
+        "wasm",
+        "-workspace-path",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe",
+        "-all-pkgs",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\all_pkgs.json"
+      ],
+      "wbtest-check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\aggregate.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\dataframe.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\describe.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\errors.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\extends.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\filter.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\io.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\io_file.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\ops.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\series.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\value.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\dataframe_wbtest.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\features_wbtest.mbt",
+        "-o",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\moonbit-dataframe.whitebox_test.mi",
+        "-pkg",
+        "SDJM5/moonbit-dataframe",
+        "-pkg-type",
+        "library",
+        "-std-path",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\debug\\debug.mi:debug",
+        "-i",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\fs\\fs.mi:fs",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\json\\json.mi:json",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\prelude\\prelude.mi:prelude",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\string\\string.mi:string",
+        "-pkg-sources",
+        "SDJM5/moonbit-dataframe:C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe",
+        "-target",
+        "wasm",
+        "-whitebox-test",
+        "-workspace-path",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe",
+        "-all-pkgs",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\all_pkgs.json"
+      ],
+      "test-check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "-doctest-only",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\aggregate.mbt",
+        "-doctest-only",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\dataframe.mbt",
+        "-doctest-only",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\describe.mbt",
+        "-doctest-only",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\errors.mbt",
+        "-doctest-only",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\extends.mbt",
+        "-doctest-only",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\filter.mbt",
+        "-doctest-only",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\io.mbt",
+        "-doctest-only",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\io_file.mbt",
+        "-doctest-only",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\ops.mbt",
+        "-doctest-only",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\series.mbt",
+        "-doctest-only",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\value.mbt",
+        "-include-doctests",
+        "-o",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\moonbit-dataframe.blackbox_test.mi",
+        "-pkg",
+        "SDJM5/moonbit-dataframe_blackbox_test",
+        "-pkg-type",
+        "library",
+        "-std-path",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\debug\\debug.mi:debug",
+        "-i",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\fs\\fs.mi:fs",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\json\\json.mi:json",
+        "-i",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\moonbit-dataframe.mi:moonbit-dataframe",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\prelude\\prelude.mi:prelude",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\string\\string.mi:string",
+        "-pkg-sources",
+        "SDJM5/moonbit-dataframe_blackbox_test:C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe",
+        "-target",
+        "wasm",
+        "-blackbox-test",
+        "-workspace-path",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe",
+        "-all-pkgs",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\all_pkgs.json"
+      ],
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": true,
+      "is-third-party": false,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\examples\\demo",
+      "root": "SDJM5/moonbit-dataframe",
+      "rel": "examples/demo",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\examples\\demo\\main.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "SDJM5/moonbit-dataframe",
+          "alias": "df",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/x/fs",
+          "alias": "fs",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\fs"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\examples\\demo\\demo.mi",
+      "check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\examples\\demo\\main.mbt",
+        "-o",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\examples\\demo\\demo.mi",
+        "-pkg",
+        "SDJM5/moonbit-dataframe/examples/demo",
+        "-pkg-type",
+        "executable",
+        "-std-path",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle",
+        "-i",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\moonbit-dataframe.mi:df",
+        "-i",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\fs\\fs.mi:fs",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\prelude\\prelude.mi:prelude",
+        "-pkg-sources",
+        "SDJM5/moonbit-dataframe/examples/demo:C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\examples\\demo",
+        "-target",
+        "wasm",
+        "-workspace-path",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe",
+        "-all-pkgs",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\all_pkgs.json"
+      ],
+      "wbtest-check-command": null,
+      "test-check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "-doctest-only",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\examples\\demo\\main.mbt",
+        "-include-doctests",
+        "-o",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\examples\\demo\\demo.blackbox_test.mi",
+        "-pkg",
+        "SDJM5/moonbit-dataframe/examples/demo_blackbox_test",
+        "-pkg-type",
+        "library",
+        "-std-path",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle",
+        "-i",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\examples\\demo\\demo.mi:demo",
+        "-i",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\moonbit-dataframe.mi:df",
+        "-i",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\fs\\fs.mi:fs",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\prelude\\prelude.mi:prelude",
+        "-pkg-sources",
+        "SDJM5/moonbit-dataframe/examples/demo_blackbox_test:C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\examples\\demo",
+        "-target",
+        "wasm",
+        "-blackbox-test",
+        "-workspace-path",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe",
+        "-all-pkgs",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\all_pkgs.json"
+      ],
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\bcrypt",
+      "root": "moonbitlang/x",
+      "rel": "bcrypt",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\bcrypt\\base64.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\bcrypt\\bcrypt.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\bcrypt\\blowfish.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\bcrypt\\bcrypt_go_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\bcrypt\\bcrypt_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\bcrypt\\blowfish_salted_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\bcrypt\\blowfish_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\bcrypt\\bcrypt_go_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\bcrypt\\bcrypt_pyca_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\bcrypt\\bcrypt_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\bcrypt\\README.mbt.md": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\bcrypt\\bcrypt.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\codec\\base64",
+      "root": "moonbitlang/x",
+      "rel": "codec/base64",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\codec\\base64\\base64.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\codec\\base64\\base64_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/core/test",
+          "alias": "test",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\test"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\codec\\base64\\base64.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto",
+      "root": "moonbitlang/x",
+      "rel": "crypto",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\aes.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\byte_source.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\chacha.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\chacha_simd.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\hmac.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\md4.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\md5.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\ripemd160.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\sha1.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\sha224.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\sha256.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\sha384.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\sha512.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\simd.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\sm3.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\traits.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\utils.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\aes_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\chacha_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\crypto_bench_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\hmac_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\md5_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\sha1_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\sha224_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\sha256_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\sm3_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto\\README.mbt.md": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "deps": [
+        {
+          "path": "moonbitlang/core/cmp",
+          "alias": "cmp",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\cmp"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/core/v128",
+          "alias": "v128",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\v128"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/bench",
+          "alias": "bench",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\bench"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/core/test",
+          "alias": "test",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\test"
+        },
+        {
+          "path": "moonbitlang/x/encoding",
+          "alias": "encoding",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\crypto\\crypto.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\decimal",
+      "root": "moonbitlang/x",
+      "rel": "decimal",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\decimal\\decimal.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\decimal\\decimal_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/bigint",
+          "alias": "bigint",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\bigint"
+        },
+        {
+          "path": "moonbitlang/core/debug",
+          "alias": "debug",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\debug"
+        },
+        {
+          "path": "moonbitlang/core/json",
+          "alias": "json",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\json"
+        },
+        {
+          "path": "moonbitlang/core/math",
+          "alias": "math",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\math"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/core/quickcheck",
+          "alias": "quickcheck",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\quickcheck"
+        },
+        {
+          "path": "moonbitlang/core/string",
+          "alias": "string",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\string"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\decimal\\decimal.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding",
+      "root": "moonbitlang/x",
+      "rel": "encoding",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\decoding.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\encoding.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\types.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\decoding_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\encoding_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\README.mbt.md": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "deps": [
+        {
+          "path": "moonbitlang/core/buffer",
+          "alias": "buffer",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\buffer"
+        },
+        {
+          "path": "moonbitlang/core/cmp",
+          "alias": "cmp",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\cmp"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/x/unicode",
+          "alias": "unicode",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/core/test",
+          "alias": "test",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\test"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\encoding\\encoding.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\internal\\benchmark",
+      "root": "moonbitlang/x",
+      "rel": "encoding/internal/benchmark",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\internal\\benchmark\\lib.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/buffer",
+          "alias": "buffer",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\buffer"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/core/random",
+          "alias": "random",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\random"
+        },
+        {
+          "path": "moonbitlang/x/encoding",
+          "alias": "encoding",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\encoding\\internal\\benchmark\\benchmark.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": true,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\internal\\benchmark\\decoding_batch",
+      "root": "moonbitlang/x",
+      "rel": "encoding/internal/benchmark/decoding_batch",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\internal\\benchmark\\decoding_batch\\main.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/env",
+          "alias": "env",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\env"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/x/encoding",
+          "alias": "encoding",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding"
+        },
+        {
+          "path": "moonbitlang/x/encoding/internal/benchmark",
+          "alias": "bench",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\internal\\benchmark"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\encoding\\internal\\benchmark\\decoding_batch\\decoding_batch.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": true,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\internal\\benchmark\\decoding_streaming",
+      "root": "moonbitlang/x",
+      "rel": "encoding/internal/benchmark/decoding_streaming",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\internal\\benchmark\\decoding_streaming\\main.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/env",
+          "alias": "env",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\env"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/x/encoding",
+          "alias": "encoding",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding"
+        },
+        {
+          "path": "moonbitlang/x/encoding/internal/benchmark",
+          "alias": "bench",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\internal\\benchmark"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\encoding\\internal\\benchmark\\decoding_streaming\\decoding_streaming.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\percent",
+      "root": "moonbitlang/x",
+      "rel": "encoding/percent",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\percent\\percent.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\percent\\percent_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding\\percent\\README.mbt.md": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "deps": [
+        {
+          "path": "moonbitlang/core/buffer",
+          "alias": "buffer",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\buffer"
+        },
+        {
+          "path": "moonbitlang/core/encoding/utf8",
+          "alias": "utf8",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\encoding\\utf8"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\encoding\\percent\\percent.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\fs",
+      "root": "moonbitlang/x",
+      "rel": "fs",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\fs\\fs.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\fs\\fs_js.mbt": {
+          "backend": [
+            "Js"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\fs\\fs_native.mbt": {
+          "backend": [
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\fs\\fs_wasm.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\fs\\blackbox_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/x/unicode",
+          "alias": "unicode",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/x/encoding",
+          "alias": "encoding",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\encoding"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\fs\\fs.mi",
+      "check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\fs\\fs.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\fs\\fs_wasm.mbt",
+        "-w",
+        "-a",
+        "-o",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\fs\\fs.mi",
+        "-pkg",
+        "moonbitlang/x/fs",
+        "-pkg-type",
+        "library",
+        "-std-path",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\prelude\\prelude.mi:prelude",
+        "-i",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\unicode\\unicode.mi:unicode",
+        "-pkg-sources",
+        "moonbitlang/x/fs:C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\fs",
+        "-target",
+        "wasm",
+        "-workspace-path",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x",
+        "-all-pkgs",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\all_pkgs.json"
+      ],
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\json5",
+      "root": "moonbitlang/x",
+      "rel": "json5",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\json5\\internal_types.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\json5\\lex_main.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\json5\\lex_misc.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\json5\\lex_number.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\json5\\lex_prop.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\json5\\lex_string.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\json5\\parse.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\json5\\types.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\json5\\util.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\json5\\parse_error_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\json5\\parse_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\json5\\README.mbt.md": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "deps": [
+        {
+          "path": "moonbitlang/core/double",
+          "alias": "double",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\double"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/core/string",
+          "alias": "string",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\string"
+        },
+        {
+          "path": "moonbitlang/x/unicode",
+          "alias": "unicode",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/debug",
+          "alias": "debug",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\debug"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/core/test",
+          "alias": "test",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\test"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\json5\\json5.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\jwt",
+      "root": "moonbitlang/x",
+      "rel": "jwt",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\jwt\\claims.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\jwt\\codec.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\jwt\\jwt.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\jwt\\jwt_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\jwt\\jwt_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\jwt\\README.mbt.md": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "deps": [
+        {
+          "path": "moonbitlang/core/encoding/base64",
+          "alias": "base64",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\encoding\\base64"
+        },
+        {
+          "path": "moonbitlang/core/encoding/utf8",
+          "alias": "utf8",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\encoding\\utf8"
+        },
+        {
+          "path": "moonbitlang/core/env",
+          "alias": "env",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\env"
+        },
+        {
+          "path": "moonbitlang/core/json",
+          "alias": "json",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\json"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/x/crypto",
+          "alias": "crypto",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\crypto"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/double",
+          "alias": "double",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\double"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/env",
+          "alias": "env",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\env"
+        },
+        {
+          "path": "moonbitlang/core/json",
+          "alias": "json",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\json"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\jwt\\jwt.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\num",
+      "root": "moonbitlang/x",
+      "rel": "num",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\num\\num.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\num\\num.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path",
+      "root": "moonbitlang/x",
+      "rel": "path",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\path.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\path_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/x/path/internal/ffi",
+          "alias": "ffi",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\internal\\ffi"
+        },
+        {
+          "path": "moonbitlang/x/path/posix",
+          "alias": "posix",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\posix"
+        },
+        {
+          "path": "moonbitlang/x/path/win32",
+          "alias": "win32",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\win32"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\path\\path.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\internal\\ffi",
+      "root": "moonbitlang/x",
+      "rel": "path/internal/ffi",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\internal\\ffi\\is_windows.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\internal\\ffi\\is_windows_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/env",
+          "alias": "env",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\env"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\path\\internal\\ffi\\ffi.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\posix",
+      "root": "moonbitlang/x",
+      "rel": "path/posix",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\posix\\path.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\posix\\unix_path.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\posix\\unix_path_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\posix\\path_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\posix\\README.mbt.md": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "deps": [
+        {
+          "path": "moonbitlang/core/cmp",
+          "alias": "cmp",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\cmp"
+        },
+        {
+          "path": "moonbitlang/core/env",
+          "alias": "env",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\env"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\path\\posix\\posix.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\win32",
+      "root": "moonbitlang/x",
+      "rel": "path/win32",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\win32\\path.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\win32\\win_path.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\win32\\win_path_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\win32\\path_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\path\\win32\\README.mbt.md": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "deps": [
+        {
+          "path": "moonbitlang/core/cmp",
+          "alias": "cmp",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\cmp"
+        },
+        {
+          "path": "moonbitlang/core/env",
+          "alias": "env",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\env"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/x/unicode",
+          "alias": "unicode",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\path\\win32\\win32.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\rational",
+      "root": "moonbitlang/x",
+      "rel": "rational",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\rational\\compare.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\rational\\rational.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\rational\\types.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\rational\\rational_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\rational\\rational_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\rational\\README.mbt.md": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "deps": [
+        {
+          "path": "moonbitlang/core/int",
+          "alias": "int",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\int"
+        },
+        {
+          "path": "moonbitlang/core/int64",
+          "alias": "int64",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\int64"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/core/quickcheck",
+          "alias": "quickcheck",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\quickcheck"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/debug",
+          "alias": "debug",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\debug"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/debug",
+          "alias": "debug",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\debug"
+        },
+        {
+          "path": "moonbitlang/core/double",
+          "alias": "double",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\double"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/core/quickcheck",
+          "alias": "quickcheck",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\quickcheck"
+        },
+        {
+          "path": "moonbitlang/core/test",
+          "alias": "test",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\test"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\rational\\rational.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\stack",
+      "root": "moonbitlang/x",
+      "rel": "stack",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\stack\\deprecated.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\stack\\stack.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\stack\\types.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\stack\\stack_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\stack\\README.mbt.md": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "deps": [
+        {
+          "path": "moonbitlang/core/list",
+          "alias": "list",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\list"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\stack\\stack.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\sys",
+      "root": "moonbitlang/x",
+      "rel": "sys",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\sys\\sys.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/env",
+          "alias": "env",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\env"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/x/sys/internal/ffi",
+          "alias": "ffi",
+          "fspath": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\sys\\internal\\ffi"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\sys\\sys.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\sys\\internal\\ffi",
+      "root": "moonbitlang/x",
+      "rel": "sys/internal/ffi",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\sys\\internal\\ffi\\sys_js.mbt": {
+          "backend": [
+            "Js"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\sys\\internal\\ffi\\sys_native.mbt": {
+          "backend": [
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\sys\\internal\\ffi\\sys_wasm.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\sys\\internal\\ffi\\ffi.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time",
+      "root": "moonbitlang/x",
+      "rel": "time",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\duration.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\errors.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\period.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\plain_date.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\plain_date_time.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\plain_time.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\util.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\weekday.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\zone.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\zone_offset.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\zoned_date_time.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\duration_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\plain_date_time_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\plain_date_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\plain_time_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\zone_wbtest.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\debug_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\duration_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\period_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\plain_date_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\plain_date_time_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\plain_time_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\zone_offset_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\zone_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\zoned_date_time_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\time\\README.mbt.md": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "deps": [
+        {
+          "path": "moonbitlang/core/int",
+          "alias": "int",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\int"
+        },
+        {
+          "path": "moonbitlang/core/int64",
+          "alias": "int64",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\int64"
+        },
+        {
+          "path": "moonbitlang/core/json",
+          "alias": "json",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\json"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/core/string",
+          "alias": "string",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\string"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/core/test",
+          "alias": "test",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\test"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/core/test",
+          "alias": "test",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\test"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\time\\time.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode",
+      "root": "moonbitlang/x",
+      "rel": "unicode",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode\\basic.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode\\charclass.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode\\lowercase.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode\\unicode_gen.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode\\utf8.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode\\basic_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode\\unicode_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/hashmap",
+          "alias": "hashmap",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\hashmap"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\unicode\\unicode.mi",
+      "check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode\\basic.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode\\charclass.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode\\lowercase.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode\\unicode_gen.mbt",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode\\utf8.mbt",
+        "-w",
+        "-a",
+        "-o",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\unicode\\unicode.mi",
+        "-pkg",
+        "moonbitlang/x/unicode",
+        "-pkg-type",
+        "library",
+        "-std-path",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\hashmap\\hashmap.mi:hashmap",
+        "-i",
+        "C:\\Users\\Lenovo\\.moon\\lib\\core\\_build\\wasm\\release\\bundle\\prelude\\prelude.mi:prelude",
+        "-pkg-sources",
+        "moonbitlang/x/unicode:C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\unicode",
+        "-target",
+        "wasm",
+        "-workspace-path",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x",
+        "-all-pkgs",
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\all_pkgs.json"
+      ],
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": true,
+      "root-path": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\uuid",
+      "root": "moonbitlang/x",
+      "rel": "uuid",
+      "files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\uuid\\ops.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\uuid\\uuid.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\uuid\\variant.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\uuid\\uuid_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {
+        "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\.mooncakes\\moonbitlang\\x\\uuid\\README.mbt.md": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/json",
+          "alias": "json",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\json"
+        },
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\prelude"
+        },
+        {
+          "path": "moonbitlang/core/test",
+          "alias": "test",
+          "fspath": "C:\\Users\\Lenovo\\.moon\\lib\\core\\test"
+        }
+      ],
+      "artifact": "C:\\Users\\Lenovo\\.zcode\\workspace\\default\\moonbit-dataframe\\_build\\wasm\\debug\\check\\.mooncakes\\moonbitlang\\x\\uuid\\uuid.mi",
+      "check-command": null,
+      "wbtest-check-command": null,
+      "test-check-command": null,
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    }
+  ],
+  "deps": [
+    "moonbitlang/x"
+  ],
+  "backend": "wasm",
+  "opt_level": "debug",
+  "source": null
+}
